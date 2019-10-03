@@ -72,6 +72,10 @@ public class Row implements Serializable{
 		return fields[pos];
 	}
 
+	public Object[] getFields() {
+		return this.fields;
+	}
+
 	/**
 	 * Sets the field at the specified position.
 	 *
